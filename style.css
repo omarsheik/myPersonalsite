@@ -22,6 +22,7 @@ h1{
 }
 h2,h3{
   color: powderblue;
+
 }
 a{
   text-decoration: none;
@@ -58,7 +59,7 @@ margin:100px  auto;
   margin: 80px auto 100px auto;
   position: relative;
   border-radius: 50%;
-  
+
 }
 .bottomimg{
   position: absolute;
@@ -78,4 +79,275 @@ margin:100px  auto;
 }
 .title{
   font-size: 1.7em;
+}
+
+
+
+
+
+
+
+
+
+
+/* For Desktop View */
+@media screen and (min-width: 1024px) {
+
+}
+
+/* For Tablet View */
+@media screen and (min-device-width: 768px)
+and (max-device-width: 1024px) {
+  .top-container{
+    position: relative;
+    display: block;
+    width: 100%;
+  }
+
+}
+
+/* For Mobile Portrait View */
+@media screen and (max-device-width: 480px)
+and (orientation: portrait) {
+  .top-container{
+    position: relative;
+    display: block;
+    width: 100%;
+  }
+  .skill{
+    display: block;
+  }
+  .bottomimg{
+    display: none;
+  }
+  .middleimg{
+    display: none;
+  }
+  .skill-row{
+  width: 100%;
+  display: block;
+  }
+  .skill-img{
+display: block;
+    margin: 20px 100px 10px auto;
+
+  }
+  .web-img{
+    display: block;
+      margin: 20px 100px 10px auto;
+  }
+  h2,h3{
+    font-size: 2em;
+  }
+  .skill-depscription{
+    font-size: 29px;
+  }
+}
+
+/* For Mobile Landscape View */
+@media screen and (max-device-width: 640px)
+and (orientation: landscape) {
+  .top-container{
+    position: relative;
+    display: block;
+    width: 100%;
+  }
+  .bottomimg,   .middleimg{
+
+    display: none;
+  }
+  h1{
+    font-size: 2em;
+  }
+  .skill{
+    display: block;
+  }
+  .title{
+    font-size: 1.8em;
+  }
+  .skill-row{
+  width: 100%;
+  display: block;
+  }
+  .skill-img{
+    margin: 20px 100px 10px auto;
+    display: block;
+
+  }
+  .web-img{
+    margin: 20px 100px 10px auto;
+    display: block;
+  }
+  h2,h3{
+    font-size: 2em;
+  }
+  .skill-depscription{
+    font-size: 29px;
+  }
+}
+
+/* For Mobile Phones Portrait or Landscape View */
+@media screen and (max-device-width: 640px) {
+  .top-container{
+    position: relative;
+    display: block;
+    width: 100%;
+  }
+  .bottomimg,   .middleimg{
+    display: none;
+  }
+  h1{
+    font-size: 2em;
+  }
+  .title{
+    font-size: 1.8em;
+  }
+  .skill{
+    display: block;
+  }
+  .skill-row{
+  width: 100%;
+    display: block;
+      position: relative;
+  }
+  .skill-img{
+  display: block;
+    margin: 20px 100px 10px auto;
+  }
+  .web-img{
+  display: block;
+    margin: 20px 100px 10px auto;
+ }
+  h2,h3{
+    font-size: 2em;
+  }
+  .skill-depscription{
+    font-size: 29px;
+  }
+}
+
+/* For iPhone 4 Portrait or Landscape View */
+@media screen and (min-device-width: 320px)
+and (-webkit-min-device-pixel-ratio: 2) {
+  .top-container{
+    position: relative;
+    display: block;
+    width: 100%;
+  }
+  .bottomimg,   .middleimg{
+    display: none;
+  }
+  .skill{
+    display: block;
+  }
+  .title{
+    font-size: 1.8em;
+  }
+  .skill-row{
+  width: 100%;
+  display: block
+    position: relative;
+  }
+  .skill-img{
+    display: block;
+      margin: 20px 100px 10px auto;
+
+  }
+  .web-img{
+    display: block;
+      margin: 20px 100px 10px auto;
+  }
+  h1{
+    font-size: 2em;
+  }
+  h2,h3{
+    font-size: 2em;
+  }
+  .skill-depscription{
+    font-size: 29px;
+  }
+}
+
+/* For iPhone 5 Portrait or Landscape View */
+@media (device-height: 568px) and (device-width: 320px)
+and (-webkit-min-device-pixel-ratio: 2) {
+  .top-container{
+    position: relative;
+    display: block;
+    width: 100%;
+  }
+  .skill{
+    display: block;
+  }
+  .bottomimg,   .middleimg{
+      display: none;
+    }
+    .title{
+      font-size: 1.8em;
+    }
+    .skill-row{
+    width: 100%;
+    display: block;
+      position: relative;
+    }
+    .skill-img{
+    display: block;
+      margin: 20px 100px 10px auto;
+
+    }
+    .web-img{
+      display: block;
+        margin: 20px 100px 10px auto;
+    }
+    h1{
+      font-size: 2em;
+    }
+    h2,h3{
+      font-size: 2em;
+    }
+    .skill-depscription{
+      font-size: 29px;
+    }
+}
+
+/* For iPhone 6 and 6 plus Portrait or Landscape View */
+@media (min-device-height: 667px) and (min-device-width: 375px)
+and (-webkit-min-device-pixel-ratio: 3) {
+  .top-container{
+    position: relative;
+    display: block;
+    width: 100%;
+  }
+  .bottomimg{
+    display: none;
+  }
+  .skill{
+    display: block;
+  }
+  .title{
+    font-size: 1.8em;
+  }
+  .skill-row{
+  width: 100%;
+  display: block;
+  position: relative;
+  }
+  .skill-img{
+  display: block;
+    margin: 20px 100px 10px auto;
+
+  }
+  .web-img{
+    display: block;
+      margin: 20px 100px 10px auto;
+  }
+  h1{
+    font-size: 2em;
+  }
+  h2,h3{
+    font-size: 2em;
+  }
+  .skill-depscription{
+    font-size: 29px;
+  }
 }
